@@ -27,10 +27,10 @@ public class MainMediaP {
 
 		  for (i = 0; i < numeros.length; i++) {
 	            if (i % 2 == 0){ 
-	                mediaPares = media + numeros[i]; 
+	                mediaPares = mediaPares + numeros[i]; 
 	                
 	            	}else {
-	            	mediaImpares = media + numeros[i];  }
+	            	mediaImpares = mediaImpares + numeros[i];  }
 		  }
 		  
 		  System.out.println(" La media de los numeros pares es" + mediaPares);
